@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "RandomNumber"
-include(":app")
+rootProject.name = "RandomAnimal"
 include(":app")
