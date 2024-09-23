@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Input số thứ nhất -->
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số thứ nhất"
+        android:inputType="number" />
+
+    <!-- Input số thứ hai -->
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số thứ hai"
+        android:inputType="number" />
+
+    <!-- TextView để hiển thị kết quả -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Các nút thao tác -->
+    <Button
+        android:id="@+id/buttonSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng của hai số" />
+
+    <Button
+        android:id="@+id/buttonSubtract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hiệu của hai số" />
+
+    <Button
+        android:id="@+id/buttonMultiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tích của hai số" />
+
+    <Button
+        android:id="@+id/buttonDivide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thương của hai số" />
+
+    <Button
+        android:id="@+id/buttonGCD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ước chung lớn nhất" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoát" />
+
+</LinearLayout>
